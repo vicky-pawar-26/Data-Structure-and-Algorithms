@@ -16,6 +16,7 @@ public:
             }
 
             if(sum > maxi) maxi = sum;
+            j++, i++;
         }
 
         double finalAvg = maxi / (double)k;
